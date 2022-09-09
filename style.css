@@ -1,0 +1,245 @@
+body {
+	margin: 0;
+	font-family: verdana;
+}
+
+
+
+
+
+/*========================================*/
+/*         Common Styling Start           */
+/*========================================*/
+
+.w-50 {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+	overflow: hidden;
+	padding-top: 130px;
+	padding-bottom: 192px;
+	
+}
+
+.container {
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+	margin-top: 2px;
+}
+
+.line {
+	border-top: 1px solid #e3e5e8;
+	margin: 25px;
+}
+
+/*========================================*/
+/*          Common Styling End            */
+/*========================================*/
+
+
+
+
+
+
+
+
+/*========================================*/
+/*            main Area Start             */
+/*========================================*/
+
+.main-area {
+	background: #f0f2f5;
+	overflow: hidden;
+	
+}
+
+
+
+.w-50 .facebook-img {
+	width: 301px;
+	margin-top: 44px;
+	margin-left: 22px;
+	
+}
+
+.w-50 .fb-help h3 {
+	padding-left: 38px;
+	font-size: 28px;
+	color: #1c1e21;
+	font-weight: normal;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	margin-top: -10px;
+	margin-left: 12px;
+	
+}
+
+.container .login-form {
+	width: 65%;
+	background: #ffffff;
+	padding: 15px 15px;
+	border-radius: 8px;
+	text-align: center;
+	margin-left: 90px;
+	
+}
+
+.container .login-form input {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+	border-radius: 6px;
+}
+
+.container .login-form input[type="text"],
+.container .login-form input[type="password"] {
+	padding: 15px;
+	font-size: 16px;
+	border: 1px solid #c4c6d0;
+	
+}
+
+
+.container .login-form input[type="submit"] {
+	padding: 10px;
+	background: #1877f2;
+	color: #ffffff;
+	border: none;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: arial;
+	margin-bottom: 20px;
+	margin-top: 18px;
+	
+}
+
+.main-area .login-form .forgot-link {
+	color: #1877f2;
+	text-decoration: none;
+	margin-bottom: 30px;
+	font-size: 14px;
+}
+
+.main-area .login-form .forgot-link:hover {
+	text-decoration: underline;
+}
+
+.main-area .login-form .new-acc-link {
+	background: #42b72a;
+	padding: 15px;
+	color: #ffffff;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+	display: inline-block;
+	
+}
+
+.main-area .login-form .new-acc-link:hover {
+	background: #009432;
+}
+
+.container .create-page {
+	text-align: center;
+	font-size: 12px;
+	margin-top: 25px;
+	
+}
+
+.create-page a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #1c1e21;
+}
+
+.create-page a:hover {
+	text-decoration: underline;
+}
+	
+
+::placeholder {
+	color: #c4c6d0;
+}
+
+
+
+/*========================================*/
+/*             main Area End              */
+/*========================================*/
+
+
+
+
+
+/*========================================*/
+/*           Footer area Start            */
+/*========================================*/
+
+.footer-area .container {
+	padding: 20px;
+}
+
+
+.footer-area .container .language ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #8a8d91;
+	font-size: 12px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+.footer-area .container .language ul a {
+	color: #989a9e;
+	text-decoration: none;
+}
+
+.footer-area .container .language ul a:hover {
+	text-decoration: underline;
+}
+
+.footer-area .container .language ul li {
+	float: left;
+	margin-right: 15px;
+}
+
+.footer-area .middle-row ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	color: #989a9e;
+	font-size: 12px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+.footer-area .middle-row ul a {
+	float: left;
+	color: #989a9e;
+	margin-right: 20px;
+	line-height: 20px;
+	text-decoration: none;
+	
+}
+
+.footer-area .middle-row ul a:hover {
+	text-decoration: underline;
+}
+
+.meta {
+	margin-top: 25px;
+	color: #989a9e;
+	font-size: 10px;
+	font-weight: bold;
+	
+}
+
+
+
+/*========================================*/
+/*             Footer Area End            */
+/*========================================*/
